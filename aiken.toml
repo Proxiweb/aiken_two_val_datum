@@ -1,0 +1,23 @@
+name = "proxiweb/two_val_datum"
+version = "0.0.0"
+compiler = "v1.1.1"
+plutus = "v3"
+license = "Apache-2.0"
+description = "Aiken contracts for project 'proxiweb/two_val_datum'"
+
+[repository]
+user = "proxiweb"
+project = "two_val_datum"
+platform = "github"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "v2.0.0"
+source = "github"
+
+[[dependencies]]
+name = "aiken-extra/tx_util"
+version = "1.200.202409"
+source = "github"
+
+[config]
